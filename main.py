@@ -18,3 +18,5 @@ print(cislo, type(cislo), desetinne_cislo, type(desetinne_cislo))
 
 logicka = True
 l2 = False
+# and == konjunkce, or == disjunkce, not == negace
+
