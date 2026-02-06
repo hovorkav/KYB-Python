@@ -116,13 +116,14 @@ print("*****************************************************************")
 pole1 = [5, 2, 9, 1, 7, 3, 10, 6, 4]
 x = 0
 y = 0
-for i in range(len(pole)):
-    if pole[i] % 2 == 0:
+for i in range(len(pole1)):
+    if pole1[i] % 2 == 0:
         x += 1
     else:
         y += 1
 
 
 print("Pocet sudych cisel je:" ,x," a pocet lichych cisel je: ",y )
+
 
 
