@@ -32,6 +32,7 @@ while hra == True:
             print("zbyva " + str(10 - y) + " pokusu")
         if y == x:
             hra = False
+            print("Hledane cislo bylo "+str(cislo))
             print("Finalni skore: "+str(skore))
             exit()
 

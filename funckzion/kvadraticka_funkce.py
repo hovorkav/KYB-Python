@@ -9,4 +9,14 @@ def kvadraticka(a, b ,c):
         vysledek = [(-b + dis**0.5)*0.5, (-b - dis**0.5)*0.5]
         return vysledek
 
-print(kvadraticka(1,2,-3))
+#print(kvadraticka(1,2,-3))
+
+def kvadratic_test():
+    results = []
+    for i in range(5):
+        results.append(kvadraticka(1,i,1))
+    return results
+
+vysledky = kvadratic_test()
+for ů in vysledky:
+    print(ů)
